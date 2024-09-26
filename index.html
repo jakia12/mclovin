@@ -64,6 +64,31 @@
       crossorigin="anonymous"
     />
     <style>
+      .lgd {
+        display: block;
+        text-transform: capitalize;
+        line-height: 1.2;
+        font-weight: 300;
+        font-family: "VGFIanFINGNNbjkOEwSkMGhRUasudmZjI";
+      }
+
+      .mbd {
+        line-height: 1.2;
+        display: none;
+        text-transform: capitalize;
+        font-weight: 300;
+        font-family: "VGFIanFINGNNbjkOEwSkMGhRUasudmZjI";
+      }
+
+      @media screen and (max-width: 768px) {
+        .lgd {
+          display: none !important;
+        }
+
+        .mbd {
+          display: block;
+        }
+      }
       .center {
         text-align: center;
         margin: 0 auto;
@@ -2494,11 +2519,15 @@
             <div class="ladi-box ladi-transition"></div>
           </div>
           <div id="HEADLINE83" class="ladi-element">
-            <h3 class="ladi-headline" style="font-size: 22px">
+            <h3 class="lgd" style="font-size: 22px">
               McLovin is the self-appointed nickname of a nerdy character in the
               movie Superbad who gains the respect of his peers by successfully
               purchasing alcohol with a fake ID which states his name as simply
               McLovin
+            </h3>
+            <h3 class="mbd" style="font-size: 22px">
+              McLovin is the self-appointed nickname of a nerdy character in the
+              movie Superbad.
             </h3>
           </div>
           <div id="HEADLINE16" class="ladi-element">
